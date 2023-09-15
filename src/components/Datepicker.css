@@ -1,0 +1,19 @@
+/* Datepicker.css */
+
+.custom-datepicker {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .datepicker-input {
+    width: 200px; /* Set the desired width */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .datepicker-input:hover {
+    border-color: #040433; /* Change border color on hover */
+  }
+  

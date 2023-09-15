@@ -1,0 +1,35 @@
+/* src/components/EmployeeList.css */
+
+.employee-list-container {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  .employee-list-header {
+    display: flex;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+  }
+  
+  .employee-list-item {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    border-right: 1px solid #ddd;
+  }
+  
+  .employee-list-item:last-child {
+    border-right: none;
+  }
+  
+  .employee-list-row {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .employee-list-row:last-child {
+    border-bottom: none;
+  }
+  
