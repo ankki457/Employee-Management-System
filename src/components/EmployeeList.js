@@ -1,5 +1,3 @@
-// src/components/EmployeeList.js
-
 import React from 'react';
 import './EmployeeList.css';
 
