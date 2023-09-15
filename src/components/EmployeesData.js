@@ -1,5 +1,3 @@
-// EmployeesData.js
-
 const employees = [
     {
       id: 1,
