@@ -1,11 +1,9 @@
-// src/components/AddEmployee.js (Add employee)
 import React, { useState } from 'react';
 
 function AddEmployee() {
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
-    // Add other employee fields here
   });
 
   const handleInputChange = (e) => {
@@ -29,8 +27,6 @@ function AddEmployee() {
       });
 
       if (response.ok) {
-        // Employee added successfully, you can handle the response as needed
-        // Redirect or update the UI to reflect the new employee
       } else {
         // Handle errors, e.g., display an error message
       }
