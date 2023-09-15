@@ -1,5 +1,3 @@
-// src/components/TinyMCEAutoresize.js
-
 import tinymce from 'tinymce/tinymce';
 import 'tinymce/themes/silver/theme';
 import 'tinymce/plugins/autoresize';
